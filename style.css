@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+}
+
+#bp{
+    width: 200px;
+    height: 42px;
+    text-align: center;
+    margin: auto;
+    border: solid pink 5px;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: pink;
+    size: 20px;
+    margin: auto;
+}
+
+#btdiv{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#plansza{
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.kafel{
+    border: solid black 1px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 10;
+}
+
+.kafelczarny{
+    border: solid black 1px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#content img{
+    width: 100px;
+    height: 100px;
+}
+
+#slider{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+#content{
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+#updown{
+    text-align: center;
+    margin-top: 20px;
+}
+
+button{
+    background-color: pink;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border: solid pink 2px;
+    cursor:pointer;
+    font-size: 14px;
+}
+
+#timer{
+    margin: auto;
+    width: 171px;
+    height: 21px;
+    margin-bottom: 20px;
+}
+
+#timer div{
+    float: left;
+}
+
+.cyferka{
+    width: 16px;
+    height: 21px;
+}
+
+.dwakropka{
+    width: 9px;
+    height: 21px;
+}
+
+.kropka{
+    width: 9px;
+    height: 21px;
+}
+
+#tab{
+    z-index: 10;
+    position: absolute;
+    margin: auto;
+    margin-top: 20px;
+    color: pink;
+    background-color: black;
+}
+
+table{
+    text-align: left;
+    position: relative;
+    align-items: center;
+
+}
+
+table, th, td {
+    border: 1px solid pink;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+#tr{
+    text-align: center;
+}
